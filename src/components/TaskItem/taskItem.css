@@ -1,4 +1,28 @@
+.taskItem {
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 20px;
+	padding: 10px 0px;
+}
+
+.taskItem .title-container {
+
+}
+
 .taskItem h4 {
 	margin: 0px;
-	font-size: 16px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.taskItem h4.text--done {
+	color: #CCCCCC;
+	text-decoration: line-through;
+}
+
+.taskItem .edit-btn {
+	margin-right: 10px;
 }
