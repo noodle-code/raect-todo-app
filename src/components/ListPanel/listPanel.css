@@ -1,0 +1,12 @@
+.listPanel {
+	background-color: #FFFFFF;
+	min-height: 50px;
+	margin: 0 auto;
+	width: 500px;
+	padding: 30px;
+}
+
+.listPanel > h2 {
+	margin: 0px;
+	margin-bottom: 10px;
+}
